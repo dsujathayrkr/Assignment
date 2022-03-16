@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9825" started-at="2022-03-16T03:52:41Z" finished-at="2022-03-16T03:52:51Z">
+  <suite name="Default suite" duration-ms="10090" started-at="2022-03-16T04:30:30Z" finished-at="2022-03-16T04:30:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9825" started-at="2022-03-16T03:52:41Z" finished-at="2022-03-16T03:52:51Z">
+    <test name="Default test" duration-ms="10090" started-at="2022-03-16T04:30:30Z" finished-at="2022-03-16T04:30:40Z">
       <class name="Pojo.userclass">
-        <test-method status="PASS" signature="login()[pri:1, instance:Pojo.userclass@780cb77]" name="login" duration-ms="4368" started-at="2022-03-16T03:52:41Z" finished-at="2022-03-16T03:52:45Z">
+        <test-method status="PASS" signature="login()[pri:1, instance:Pojo.userclass@780cb77]" name="login" duration-ms="4442" started-at="2022-03-16T04:30:30Z" finished-at="2022-03-16T04:30:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="Createuser()[pri:2, instance:Pojo.userclass@780cb77]" name="Createuser" duration-ms="1811" started-at="2022-03-16T03:52:45Z" finished-at="2022-03-16T03:52:47Z">
+        <test-method status="PASS" signature="Createuser()[pri:2, instance:Pojo.userclass@780cb77]" name="Createuser" duration-ms="1793" started-at="2022-03-16T04:30:34Z" finished-at="2022-03-16T04:30:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Createuser -->
-        <test-method status="PASS" signature="Logout(org.testng.ITestContext)[pri:3, instance:Pojo.userclass@780cb77]" name="Logout" duration-ms="2146" started-at="2022-03-16T03:52:47Z" finished-at="2022-03-16T03:52:49Z">
+        <test-method status="PASS" signature="Logout(org.testng.ITestContext)[pri:3, instance:Pojo.userclass@780cb77]" name="Logout" duration-ms="2184" started-at="2022-03-16T04:30:36Z" finished-at="2022-03-16T04:30:38Z">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method status="FAIL" signature="DeleteUser(org.testng.ITestContext)[pri:0, instance:Pojo.userclass@780cb77]" name="DeleteUser" duration-ms="1466" started-at="2022-03-16T03:52:49Z" depends-on-methods="Pojo.userclass.Logout" finished-at="2022-03-16T03:52:51Z">
+        <test-method status="FAIL" signature="DeleteUser(org.testng.ITestContext)[pri:0, instance:Pojo.userclass@780cb77]" name="DeleteUser" duration-ms="1636" started-at="2022-03-16T04:30:38Z" depends-on-methods="Pojo.userclass.Logout" finished-at="2022-03-16T04:30:40Z">
           <params>
             <param index="0">
               <value>
